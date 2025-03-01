@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f0f0f;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    
+}
+nav .logo{
+    display: flex;
+    gap: 20px;
+    margin :20px
+}
+nav .logo img{
+    cursor: pointer;
+}
+nav .logo .menu{
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+nav .logo .menu:hover{
+    background-color: #3d3d3d;}
+nav .search-bar {
+    display: flex;
+    align-items: center;
+}
+nav .search-bar .search{
+    background-color: #121212;
+    width: 590px;
+    border: 1px solid #303030;
+    height: 40px;
+    align-items: center;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 25px;
+}
+nav .search-bar .search input{
+    padding: 15px;
+    font-size: 17px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+nav .search-bar .search .img{
+    width: 9%;
+    border: 1px solid #303030;
+    height: 100%;
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+nav .search-bar .microphone{
+    width: 35px;
+    border: 1px solid #303030;
+    height: 35px;
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+
+nav .search-bar .microphone:hover{
+    background-color: #3d3d3d;
+    cursor: pointer;
+}
+.prof{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin :30px
+
+}
+
+.prof button{
+    display: flex;
+    align-items: center;
+    width: 95px;
+    height: 35px;
+    background-color: #272727;
+    color: white;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 15px;
+    border: none;
+}
+.prof button p{
+    font-weight: bold;
+}
+
+.prof button:hover{
+    background-color: #3d3d3d;
+    cursor: pointer;
+}
+.prof .ring {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.prof .ring:hover{
+    background-color: #3d3d3d;
+    cursor: pointer;
+}
+
+.prof .user img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
